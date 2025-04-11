@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff8e1;
+  color: #333;
+}
+
+.banner-images {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+.banner-images img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 8px;
+}
