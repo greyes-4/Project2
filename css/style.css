@@ -21,7 +21,7 @@ body {
 }
 
 .banner-images img {
-  width: 180px;
+  width: 250px;
   display: block;
   margin: 0 auto 10px;
 }
@@ -157,6 +157,6 @@ footer a:hover {
 
 footer img {
   display: block;
-  max-width: 100px;
+  max-width: 150px;
   margin: 0 auto;
 }
