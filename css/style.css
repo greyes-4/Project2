@@ -160,3 +160,22 @@ footer img {
   max-width: 150px;
   margin: 0 auto;
 }
+
+.promo-section {
+	display: flex;
+	gap: 20px;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	margin: 20px;
+}
+
+.rotor-coupon, .delivery-info {
+	flex: 1;
+	min-width: 300px;
+	background-color: #f5f5f5;
+	padding: 20px;
+	border-radius: 6px;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
