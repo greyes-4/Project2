@@ -226,3 +226,18 @@ footer img {
   border-color: #800000;
   box-shadow: 0 0 4px rgba(128, 0, 0, 0.3);
 }
+
+.contact-form button {
+  background: #800000;
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+  background: #a00000;
+}
