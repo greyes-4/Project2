@@ -22,6 +22,22 @@
 <main class="about-content">
 	<h2>Contact ASM Auto Supply</h2>
 	<p>Feel free to call, email, or visit us during our business hours. We’re happy to help you find the right part for your vehicle!</p>
+	
+	<form action="submitForm.php" method="POST" class="contact-form">
+		<label for="name">Full Name:</label><br />
+		<input type="text" id="name" name="name" required 
+
+		<label for="phone">Phone Number:</label><br />
+		<input type="tel" id="phone" name="phone" required />
+
+		<label for="email">Email Address:</label><br />
+		<input type="email" id="email" name="email" required />
+
+		<label for="message">Questions or Comments:</label>
+		<textarea id="message" name="message" rows="5" required></textarea>
+
+		<button type="submit">Submit</button>
+	</form>
 </main>
 
 <footer>
@@ -44,6 +60,5 @@
 	</div>
 	<img src="images/Footer-Logo-1.webp" alt="footer image" />
 </footer>
-
 </body>
 </html>
