@@ -203,3 +203,26 @@ footer img {
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   margin-top: 30px;
 }
+.contact-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #800000;
+  box-shadow: 0 0 4px rgba(128, 0, 0, 0.3);
+}
